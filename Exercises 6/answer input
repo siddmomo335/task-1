@@ -1,0 +1,7 @@
+answer = input("What is the capital of sudan? ")
+if answer.lower() == "Khartom":
+    print("Correct!")                                                          # Convert the answer to lowercase and compare it to the correct answer
+                                                                                      # Using .lower() makes the check case‑insensitive
+
+else:
+    print("Wrong answer.")
