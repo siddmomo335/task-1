@@ -1,0 +1,2 @@
+name = input("Enter your name: ")                                                                                                            # Exercise 9: Hello
+print("Hello", name)                                                                                                  # This program asks for the user's name and says hell
