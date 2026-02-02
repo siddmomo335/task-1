@@ -1,0 +1,22 @@
+def check_even(num):                                  # Function to check whether a number is even or odd
+
+    if num % 2 == 0:
+        return "The number is even"
+    else:                                                # If the remainder when dividing by 2 is zero, it's even
+
+        return "The number is odd"
+
+def main():
+    number = int(input("Enter a number: "))
+    result = check_even(number)                                         # Call the check_even function and store the result
+    result = check_even(number)
+    
+                                                                           # Print whether the number is even or odd
+                                                                                 print(result)
+
+                                                       # Ensures main() runs only when the script is executed directly
+
+                                                                                      print(result)
+ 
+if _name_ == "_main_":
+    main()
