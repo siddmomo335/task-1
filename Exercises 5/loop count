@@ -1,0 +1,34 @@
+password = 12345                               # Store the correct password
+attempts = 5
+
+while attempts > 0:
+    user_input = int(input("Enter password: "))                            # Loop continues as long as the user still has attempts left
+
+
+    if user_input == password:
+        print("Access granted")                                               # Check if the entered password matches the correct one
+
+        break
+    else:
+        attempts -= 1
+        print("Wrong password. Attempts left:", attempts)
+
+if attempts == 0:                                                      # If the user used all attempts, trigger the final message
+
+    print("Authorities have been alerted")
+
+for i in range(0, 50):
+    print(i)                                           # Loop 1: Count upward from 0 to 49
+
+
+for i in range(50, -1, -1):
+    print(i)
+
+for i in range(50, 9, -1):                                 # Loop 2: Count downward from 50 to 0
+                                                        # The -1 step means we go backwards
+
+    print(i)
+
+for i in range(100, 201, 5):                                                     # Loop 3: Count downward from 50 to 10 (stops before 9)
+
+    print(i)                                                                  # Loop 4: Count upward from 100 to 200 in steps of 5
