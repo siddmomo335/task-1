@@ -1,0 +1,9 @@
+number1 = 5                                                    # Store the first number
+
+number2 = 7                                                        
+number2 = 7                                                        # Store the second number
+                                                                     # Add the two numbers and save the result
+
+
+result = number1 + number2
+print("The sum is:", result)
