@@ -1,0 +1,11 @@
+def hello():
+    print("Hello")
+                                                              # A simple function that prints a greeting
+
+def main():
+    hello()
+                                                                 
+                                                                           # This ensures the main() function runs only when the scrip                                               # is executed directly, not when imported as a module
+
+if _name=="main_":
+    main()
