@@ -1,26 +1,15 @@
-# A dictionary that stores 10 european countries and their capitals
-questions = {
-    "france": "paris",
-    "germany": "berlin",
-    "italy": "rome",
-    "spain": "madrid",
-    "portugal": "lisbon",
-    "netherland": "amsterdam",
-    "belgium": "brussels",
-    "sweden": "stockholm",
-    "norway": "oslo",
-    "switzerland": "bern",
-}
-print("welcome to the european capitals quiz")
-print("you will be asked 10 questions. \n")
-#loop through each country in the dictionary
-for country, capital in questions.items():
-    #ask the user for the capital of the current country
-    UserName = input(f"what is the capital of {country}. \n ")
-    #check the answer (ignore capitalization)
-    if UserName.lower() == capital.lower():
-        print("correct \n")
-    else:
-        print(f"wrong the correct answer is {capital} \n ")
-
-print("quiz finished thank you for playing")
+#count up from 0 to 50 
+for i in range (51):
+    print(i)
+#count down fron 50 to 0
+for i in range (50, -1, -1):
+    print(i)
+#count up from 30 to 50
+for i in range(30, 51):
+    print (i)
+#count down from 50 to 10 (step -2)
+for i in range(50, 9, -2):
+    print(i)
+#count up from 100 to 200 (step +5)
+for i in range (100,201,5):
+    print(i)
