@@ -1,5 +1,5 @@
 #list of names to search through 
-names = ["myada", "rawan", "len", "aya", "dona", "sara",]
+names = ["jake", "Zac", "Lan", "Ron", "Sam", "Dave",]
 #ask the user for the name they want to search for
 search_term = input("enter the name to search for: ")
 #loop through the list and check if the name exists 
